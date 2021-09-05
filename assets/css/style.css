@@ -201,7 +201,7 @@ colum: cot */
     position: relative;
     margin-top: 0;
     padding-top: 50%; /* giup cho chieu dai = 1/2 chieu rong* cua buc anh */    
-    background: url('/assets/slider-img/la.jpg') top center / cover no-repeat;
+    background: url('./assets/slider-img/la.jpg') top center / cover no-repeat;
 }
 
 
