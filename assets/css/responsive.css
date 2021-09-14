@@ -1,0 +1,71 @@
+/* responsive */
+
+/* do phan giai PC*/
+/* do phan giai ipad*/
+/* do phan giai mobile*/
+
+
+@media(min-width: 1024px){
+    .mobile-menu-btn{
+        display: none;
+    }
+    #header{
+        overflow: none;
+    }
+}
+@media(min-width: 741px) and (max-width: 1023px){
+    .mobile-menu-btn{
+        display: none;
+    }
+    #slider .text-content{
+        display: none;
+    }
+}
+@media(min-width: 0px) and (max-width: 740px){
+    
+    #header{
+        overflow: hidden;
+    }
+    #slider .text-content{
+        display: none;
+    }
+    #nav{
+        display: block;
+        width: 100%;
+    }
+    #nav > li{
+        display: block;
+        width: 100%;
+    }
+    #nav > li:first-child{
+        width: fit-content;
+    }
+    #nav li a{
+        width: 100%;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    .mobile-menu-btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #the-band-section .col{
+        width: 100%;
+    } 
+    
+    #contact-section .contact-infor{
+        width: 100%;
+        
+    }
+    
+    .s-col-full{
+        width: 100%;
+    }
+
+   
+}
+
+
+
