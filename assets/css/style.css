@@ -124,7 +124,7 @@ colum: cot */
 #header {
     background-color: black;
     z-index: 1;
-    height: 46px;
+    height: 26px;
     width: 100%;
     position: fixed;
     top: 0px;
