@@ -124,7 +124,7 @@ colum: cot */
 #header {
     background-color: black;
     z-index: 1;
-    height: 26px;
+    height: 6px;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -223,7 +223,7 @@ colum: cot */
 #slider{
     text-transform: capitalize;
     position: relative;
-    margin-top: 46px;
+    margin-top: 26px;
     padding-top: 50%; /* giup cho chieu dai = 1/2 chieu rong* cua buc anh */    
     background: url('https://www.w3schools.com/w3images/chicago.jpg') top center / cover no-repeat;
 }
